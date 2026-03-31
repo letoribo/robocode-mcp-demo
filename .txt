@@ -1,3 +1,10 @@
+# Project Initialization
 cd /home/robocode-mcp-demo
 dotnet new console
 dotnet add package System.Net.Http.Json
+
+# Step 1: Run MCP Server (In a separate terminal)
+# ENABLE_HTTP=true npx @letoribo/mcp-graphql-enhanced
+
+# Step 2: Run C# Bridge
+dotnet run
