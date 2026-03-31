@@ -1,0 +1,3 @@
+cd /home/robocode-mcp-demo
+dotnet new console
+dotnet add package System.Net.Http.Json
